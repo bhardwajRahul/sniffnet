@@ -562,7 +562,7 @@ pub fn domain_translation(language: Language) -> &'static str {
         Language::PT => "Domínio",
         Language::VI => "Miền",
         Language::NL => "Domeinnaam",
-        Language::EL => "Τομέα",
+        Language::EL => "Τομέας",
     }
 }
 

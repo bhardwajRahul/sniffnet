@@ -138,6 +138,7 @@ impl Language {
                 | Language::ID
                 | Language::ES
                 | Language::SV
+                | Language::EL
         )
     }
 }
