@@ -85,7 +85,7 @@ pub fn capture_file_translation(language: Language) -> &'static str {
         Language::NL => "Capture bestand",
         Language::DE => "Aufzeichnungsdatei",
         Language::UZ => "Tahlil faylini",
-        Language::EL => "Αρχείου καταγραφής",
+        Language::EL => "Αρχείο καταγραφής",
         Language::RO => "Fișierul de captură",
         Language::ZH_TW => "擷取文件",
         Language::ID => "File tangkapan",

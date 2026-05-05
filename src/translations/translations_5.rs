@@ -18,6 +18,7 @@ pub fn filter_traffic_translation(language: Language) -> String {
         Language::FR => "Filtrer le traffic",
         Language::UK => "Фільтр трафіку",
         Language::SV => "Filtrera trafik",
+        Language::EL => "Φιλτράρισμα ροής",
         _ => "Filter traffic",
     }
     .to_string()
@@ -40,6 +41,7 @@ pub fn traffic_source_translation(language: Language) -> &'static str {
         Language::FR => "Source du traffic",
         Language::UK => "Джерело трафіку",
         Language::SV => "Trafikkälla",
+        Language::EL => "Πηγή ροής",
         _ => "Traffic source",
     }
 }
@@ -59,6 +61,7 @@ pub fn remote_notifications_translation(language: Language) -> &'static str {
         Language::FR => "Notifications distantes",
         Language::UK => "Віддалені сповіщення",
         Language::SV => "Fjärrnotiser",
+        Language::EL => "Απομακρυσμένες ειδοποιήσεις",
         _ => "Remote notifications",
     }
 }
@@ -78,6 +81,7 @@ pub fn ip_blacklist_translation(language: Language) -> &'static str {
         Language::FR => "Blacklist d'IP",
         Language::UK => "Чорний список IP-адрес",
         Language::SV => "IP-svartlista",
+        Language::EL => "Λίστα μπλοκαρισμένων διευθύνσεων",
         _ => "IP blacklist",
     }
 }
@@ -97,6 +101,7 @@ pub fn blacklisted_transmitted_translation(language: Language) -> &'static str {
         Language::FR => "Nouvelles données échangées depuis une IP blacklistée",
         Language::UK => "Отримано нові дані з IP-адреси з чорного списку",
         Language::SV => "Ny data utbytt från en svartlistad IP-adress",
+        Language::EL => "Νέα δεδομένα ανταλλαχθηκαν από μια μπλοκαρισμένη διεύθυνση",
         _ => "New data exchanged from a blacklisted IP",
     }
 }
@@ -116,6 +121,7 @@ pub fn only_show_blacklisted_translation(language: Language) -> &'static str {
         Language::FR => "Montrer seulement les blacklistées",
         Language::UK => "Показувати лише заблоковані",
         Language::SV => "Visa endast svartlistade",
+        Language::EL => "Εμφάνιση μόνο μπλοκαρισμένων διευθύνσεων",
         _ => "Only show blacklisted",
     }
 }
@@ -150,6 +156,7 @@ pub fn no_favorites_saved_translation(language: Language) -> &'static str {
         Language::FR => "Aucun favoris enregistrés pour le moment",
         Language::UK => "Ще немає збережених улюблених",
         Language::SV => "Inga favoriter sparade ännu",
+        Language::EL => "Δεν έχει αποθηκευτεί κανένα αγαπημένο στοιχείο ακόμη",
         _ => "No favorites saved yet",
     }
 }
