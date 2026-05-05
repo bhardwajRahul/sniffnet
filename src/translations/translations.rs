@@ -1201,7 +1201,7 @@ pub fn bytes_translation(language: Language) -> &'static str {
         | Language::ID
         | Language::NL
         | Language::DE => "bytes",
-        Language::EL => "ψηφιολέξεις/bytes",
+        Language::EL => "ψηφιολέξεις",
         Language::CS => "bajtů",
         Language::FR => "octets",
         Language::PL => "bajty",
@@ -1989,7 +1989,7 @@ pub fn bytes_exceeded_translation(language: Language) -> &'static str {
         Language::TR => "Bayt eşik değeri aşıldı",
         Language::RU => "Порог в байтах превышен",
         Language::PT => "Limite de bytes excedido",
-        Language::EL => "Το όριο των ψηφιολέξεων/bytes ξεπεράστηκε",
+        Language::EL => "Το όριο των ψηφιολέξεων ξεπεράστηκε",
         // Language::FA => "آستانه بایت فراتر رفت",
         Language::SV => "Gräns för bytes överskriden",
         Language::FI => "Tavuraja ylitetty",

@@ -137,6 +137,7 @@ pub fn program_translation(language: Language) -> &'static str {
         Language::ES => "Programa",
         Language::FR => "Programme",
         Language::UK => "Програма",
+        Language::EL => "Πρόγραμμα",
         _ => "Program",
     }
 }
